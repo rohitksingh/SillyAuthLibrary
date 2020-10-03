@@ -1,2 +1,3 @@
+include ':sillyauth'
 include ':app'
 rootProject.name = "SillyAuthLibrary"
