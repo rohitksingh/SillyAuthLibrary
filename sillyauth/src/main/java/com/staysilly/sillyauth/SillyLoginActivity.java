@@ -95,7 +95,7 @@ public abstract class SillyLoginActivity extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             Log.d(TAG, "signInWithCredential:success");
                             FirebaseUser user = mAuth.getCurrentUser();
-                            startSplashActivity();
+                            //startSplashActivity();
                             //progress.setVisibility(View.GONE);
                         } else {
 
